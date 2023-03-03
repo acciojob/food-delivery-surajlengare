@@ -1,11 +1,14 @@
 package com.driver.io.entity;
 
+import lombok.Builder;
+
 import java.io.Serializable;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+
 
 @Entity(name = "foods")
 public class FoodEntity{
